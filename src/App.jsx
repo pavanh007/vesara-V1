@@ -1,17 +1,27 @@
 import { useState } from 'react'
-import About from './pages/About';
-import Home from './pages/about/Home';
-import Testimonial from './pages/testimonial/testimonial';
-import Work from './pages/work/work';
+import {
+  Work,
+  About,
+  Testimonial,
+  Partner,
+  Team,
+  Footer,
+  Home,
+} from "./pages/root/index.js";
+import { ConstructHome } from './pages/construction/home/constructHome.jsx';
 
 function App() {
 
   return (
     <>
-      <Home/>
+      {/* <Home/>
       <About />
       <Work />
-      <Testimonial/>
+      <Testimonial />
+      <Partner/>
+      <Team />
+      <Footer/> */}
+      <ConstructHome/>
     </>
   );
 }

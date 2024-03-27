@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Manrope:700|Manrope:400');
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  
+  /* padding-top: 200px; */
+
+}
+
+.card_about {
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  background: linear-gradient(0deg, rgba(34,141,195,1) 0%, rgba(45,68,253,1) 100%);
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+  border-radius: 20px;
+  padding: 20px;
+  
+  cursor: pointer;
+  background: linear-gradient(to bottom right, #f1f4f7);
+}
+
+.card_about:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card_about img {
+  height: 100px;
+  width: 100px;
+}
+
+.card_about h1 {
+  font-size: 24px;
+}
+
+.card_about span {
+  color: white;
+  justify-content: center;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+}
+
+.card_about button {
+  padding: 10px 20px;
+  height: 40px;
+  width: 220px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+
+/* button */
+
+.swipe {
+  margin-top: 10px;
+  position: relative;
+  background-color: #F1F7F7;
+  width: 180px;
+  height: 50px;
+  color: rgba(0, 0, 0, 1);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  /* letter-spacing: 2px; */
+  border-top: 0.5px solid rgba(0, 0, 0, 0.35);
+  border-left: 0.5px solid rgba(0, 0, 0, 0.35);
+  padding-left: 40px;
+  cursor: pointer;
+  transition: 0.35s ease;
+}
+
+.swipe:hover {
+  padding-left: 0;
+  padding-right: 40px;
+  color: #324B4C;
+}
+
+.container {
+  position: absolute;
+  left: 5px;
+  width: 25px;
+  height: 25px;
+  background: #7AB5B7;
+  border-radius: 5px;
+  transition: 0.35s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f1f4f7;
+}
+
+.swipe:hover .container {
+  left: calc(100% - 55px);
+  color: #324B4C;
+}
+
+
+.card_one_para {
+   font-family: "Poppins", sans-serif;
+  font-weight: 150;
+}
+
+.header_name_card {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
