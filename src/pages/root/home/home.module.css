@@ -8,7 +8,7 @@
   flex-direction: column;
   height: 130vh;
   width: 100vw;
-  background: linear-gradient(180deg, rgba(6,4,7,1) 0%, rgba(6,4,7,1) 14%, rgba(8,17,27,1) 32%, rgba(14,56,87,1) 49%, rgba(17,75,117,1) 65%, rgba(20,96,150,1) 83%, rgba(29,163,253,1) 100%);
+  background: linear-gradient(180deg, rgba(6,4,7,1) 0%, rgba(6,4,7,1) 14%, rgba(8,17,27,1) 32%, rgba(14,56,87,1) 49%, rgba(17,75,117,1) 65%, #164B60 83%, #164B60 100%);
 }
 .main_heading {
   opacity: 5;

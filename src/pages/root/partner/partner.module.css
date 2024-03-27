@@ -53,6 +53,12 @@
   width: 260px;
 }
 
+.compLogo {
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}
+
 .outer_partner_div {
   display: flex;
   justify-content: center;

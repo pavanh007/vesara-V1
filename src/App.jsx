@@ -1,28 +1,16 @@
-import { useState } from 'react'
-import {
-  Work,
-  About,
-  Testimonial,
-  Partner,
-  Team,
-  Footer,
-  Home,
-} from "./pages/root/index.js";
-import { ConstructHome } from './pages/construction/home/constructHome.jsx';
+
+import { Route, Routes } from 'react-router-dom';
+import { HomePage } from './pages/root/index.jsx';
+import { ConstructionPage } from './pages/construction/index.jsx';
 
 function App() {
 
   return (
-    <>
-      {/* <Home/>
-      <About />
-      <Work />
-      <Testimonial />
-      <Partner/>
-      <Team />
-      <Footer/> */}
-      <ConstructHome/>
-    </>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/construction" element={<ConstructionPage />} />
+      <Route path="/interior" element={<InteriorPage />} />
+    </Routes>
   );
 }
 
